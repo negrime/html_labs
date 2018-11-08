@@ -1,0 +1,114 @@
+@charset "utf-8"; 
+/*CSS Documen*/ 
+*{ 
+font-family: "Fedra Sans",sans-serif; 
+} 
+
+table.main{ 
+border: 0px solid black; 
+width: 100%; 
+height: 100%; 
+background: url(images/back.jpg); 
+border-spacing: 0px 0px; 
+padding: 0px;
+} 
+.logo{
+	width: 170px;
+	height: 110px;
+}
+.flag{
+	 width: 350px;
+	 height: 280px;
+	 border: 1px solid black;
+}
+.map{
+	width: 350px;
+	height: 500px;
+}
+.pic{
+	 width: 600px;
+	 height: 350px;
+}
+.border{
+	border: 1px solid black;
+}
+.icon{
+	width: 40px;
+	height: 30px;
+
+}
+.image-center {
+  display:block;
+  margin: 0 auto;
+}
+.rowGrey {
+    background-color: rgba(255, 255, 255, 0.50);
+}
+.tdWhite {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.namefirm{
+	font-size: 35px;
+	color: #000000;
+	font-family: Arial Black; 
+}
+.bold{
+	font-weight: bold;
+}
+.nomargintop{
+		margin-top: -1px;
+}
+.nomarginbot{
+		margin-bottom: -1px;
+}
+
+
+.namecountry{
+	text-align: center;
+	font-size: 30px;
+}
+.othercountry{
+	font-size: 30px;
+	color: grey;
+	text-decoration: underline;
+	
+}
+.sections{
+	font-size: 20px;
+	padding-top: 3%;
+}
+.alignright{
+		text-align: right;	
+}
+.aligncenter{
+		text-align: center;	
+}
+sup{
+	font-size:12px;
+}
+a:hover{
+	color: rgb(115,81,132);
+}	
+a{
+	text-decoration: none;
+	color: black;
+}
+.padright{
+	padding-right: 3%;
+}
+.copyright{
+	font-family:"Tahoma",sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-bottom: 2px;
+}
+.alignleft{
+	text-align: left;
+}
+.infalign{
+	padding-left: 3%;
+	vertical-align: top;
+	padding-right: 3%;
+	text-align: justify;
+	font-family: Arial;
+}
