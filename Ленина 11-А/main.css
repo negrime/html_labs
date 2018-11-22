@@ -1,0 +1,66 @@
+@charset "utf-8"; 
+/*CSS Documen*/ 
+*{ 
+font-family: Arial,sans-serif;
+ 
+}
+body{
+	background: url(images/back1.jpg); 
+	counter-reset: cnt_figures 0;
+}
+header{
+	text-align: center;
+	margin-top: 2%;
+	background-color: rgba(44, 51, 55, 0.6);
+	color: #FFFFFF;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 3%;
+	padding-left: 3%;
+	border-radius: 10px;
+}
+
+h1{
+	font-size: 28px;
+}
+
+h2{
+	font-size: 24px;
+	text-align: center;
+}
+
+figure figcaption {
+	margin-top: 5px;
+	counter-increment: cnt_figures 1;
+}
+figure figcaption:before {
+	content: "Рис. " counter(cnt_figures) ". ";
+}
+section{
+	border-radius: 10px;
+	margin-top: 3%;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	padding-right: 3%;
+	padding-left: 3%;
+	text-align: justify;
+	background-color: rgba(255, 255, 255, 0.4);
+	
+}
+figure.image {
+  max-width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 0 0 5px #fff, 0 0 4px 5px; 
+  background: #FFFFFF;
+}
+figure.min_cont {
+  width: min-content; 
+}
+figcaption{
+	text-align: center;
+	font-style: italic;
+}
